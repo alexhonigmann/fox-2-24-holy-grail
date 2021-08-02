@@ -8,6 +8,9 @@
     display: flex;
     flex-flow: row wrap;
     text-align: center;
+    overflow: hidden;
+    min-height: 100vh;
+    /*thanks*/
 }
 
 .wrapper > * {
@@ -25,7 +28,7 @@ h2{
 }
 
 h4{
-    margin-bottom: 10vh;
+    margin-bottom: 7vh;
 }
 
 .header{
@@ -48,6 +51,7 @@ h4{
 
 .footer{
     background-color: #669900;
+    margin-top: auto;
 }
 
 
@@ -62,5 +66,5 @@ h4{
     .nav { order: 2; } 
     .main { order: 3; }
     .aside { order: 4; }
-    .footer { order: 5; }
-  }
+    .footer { order: 5; margin-top: auto;}
+}
